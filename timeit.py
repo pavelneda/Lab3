@@ -28,4 +28,4 @@ t="""
 with open("newfile.txt") as f:
     s=sum((int(i.strip()) for i in f if i.strip().isdigit()))
 """
-print(timeit(t,number=10)/10) 
+print(timeit(t,number=10)/10)
